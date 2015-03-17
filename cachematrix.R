@@ -1,8 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This should be a solution to Programming Assignment 2
+## in the course of R Programming
 
-## Write a short comment describing this function
-
+## Basic object-handling methods, such as creating, assigning
+## and reading inverse and other stuff
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+## Check cache first and actually compute only in
+## case of missing cache
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   m <- x$getinverse()
